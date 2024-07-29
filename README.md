@@ -82,11 +82,17 @@ En esta práctica debo realizar una aplicación nativa usando:
 ---
 ### Mockups
 
-![Mockup1](https://github.com/Marcnava/Practica-UX-UI/blob/main/Images/Captura%20de%20pantalla%202023-07-21%20a%20las%201.41.22.png?raw=true)
+![Login](https://github.com/Marcnava/Practica-fundamentos-ios/blob/main/Mockups/Login.jpeg?raw=true)
 
-![Mockup2](https://github.com/Marcnava/Practica-UX-UI/blob/main/Images/Captura%20de%20pantalla%202023-07-21%20a%20las%201.45.16.png?raw=true)
+![HeroesList](https://github.com/Marcnava/Practica-fundamentos-ios/blob/main/Mockups/HeroList.jpeg?raw=true)
 
-![Mockup3](https://github.com/Marcnava/Practica-UX-UI/blob/main/Images/Captura%20de%20pantalla%202023-07-21%20a%20las%201.47.24.png?raw=true)
+![HeroDetail](https://github.com/Marcnava/Practica-fundamentos-ios/blob/main/Mockups/HeroDetail.jpeg?raw=true)
+
+![HeroDetailWithTransformation](https://github.com/Marcnava/Practica-fundamentos-ios/blob/main/Mockups/HeroDetailWithTransformation.jpeg?raw=true)
+
+![TransformationsList](https://github.com/Marcnava/Practica-fundamentos-ios/blob/main/Mockups/TransformationsList.jpeg?raw=true)
+
+![TransformationDetail](https://github.com/Marcnava/Practica-fundamentos-ios/blob/main/Mockups/TransformationDetail.jpeg?raw=true)
 
 ---
 ### Agradecimientos
