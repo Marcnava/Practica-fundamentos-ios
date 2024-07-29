@@ -11,6 +11,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
+    // Setting Launch Screen and navigating to Log In view
     func scene(
         _ scene: UIScene,
         willConnectTo session: UISceneSession,

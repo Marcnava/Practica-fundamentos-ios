@@ -8,9 +8,11 @@
 import UIKit
 
 class TransformationsListTableViewController: UITableViewController {
-        
+    
+    // MARK: - Properties
     var transformations: [Transformation] = []
-        
+    
+    // MARK: - Lifecicle
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Transformations"
@@ -24,7 +26,6 @@ class TransformationsListTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return transformations.count
     }
@@ -46,10 +47,12 @@ class TransformationsListTableViewController: UITableViewController {
         return cell
     }
     
+    // MARK: - Row Config
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 125
     }
     
+    // MARK: - Navigation
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let transformation = transformations[indexPath.row]

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Hero: Decodable, HeroTableViewRepresentable {
+struct Hero: Decodable, HeroTableViewRepresentable, Equatable {
     let id: String
     let favorite: Bool
     let name: String

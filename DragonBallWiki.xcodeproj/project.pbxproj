@@ -7,27 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3114DC232C357FB800F1F492 /* HeroesListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3114DC222C357FB800F1F492 /* HeroesListTableViewController.xib */; };
+		3114DC242C357FB800F1F492 /* HeroesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3114DC212C357FB800F1F492 /* HeroesListTableViewController.swift */; };
+		3114DC272C35A58B00F1F492 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3114DC262C35A58B00F1F492 /* Kingfisher */; };
 		3121CE282C33070B007D8874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121CE272C33070B007D8874 /* AppDelegate.swift */; };
 		3121CE2A2C33070B007D8874 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121CE292C33070B007D8874 /* SceneDelegate.swift */; };
-		3121CE2C2C33070B007D8874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121CE2B2C33070B007D8874 /* ViewController.swift */; };
-		3121CE2F2C33070B007D8874 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3121CE2E2C33070B007D8874 /* Base */; };
 		3121CE312C33070D007D8874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3121CE302C33070D007D8874 /* Assets.xcassets */; };
-		3121CE342C33070D007D8874 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3121CE332C33070D007D8874 /* Base */; };
+		3121CE3D2C330E2D007D8874 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121CE3B2C330E2D007D8874 /* LogInViewController.swift */; };
+		3121CE3E2C330E2D007D8874 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3121CE3C2C330E2D007D8874 /* LogInViewController.xib */; };
+		3121CE442C3310C8007D8874 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121CE422C3310C8007D8874 /* LaunchScreen.swift */; };
+		3121CE452C3310C8007D8874 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3121CE432C3310C8007D8874 /* LaunchScreen.xib */; };
+		31588D7F2C33E793006EB68F /* LocalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31588D7E2C33E793006EB68F /* LocalDataModel.swift */; };
+		31588D862C342A53006EB68F /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31588D852C342A53006EB68F /* HeroModel.swift */; };
+		31588D892C34390C006EB68F /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31588D872C34390C006EB68F /* HeroTableViewCell.swift */; };
+		31588D8A2C34390C006EB68F /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31588D882C34390C006EB68F /* HeroTableViewCell.xib */; };
+		315964D82C53B3EC002A3EF0 /* DragonBallWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315964D72C53B3EC002A3EF0 /* DragonBallWikiTests.swift */; };
+		315964DF2C53B4D3002A3EF0 /* NetworkModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315964DE2C53B4D3002A3EF0 /* NetworkModelTests.swift */; };
+		31646ABA2C380A6B00B43352 /* TransformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31646AB92C380A6B00B43352 /* TransformationModel.swift */; };
+		31646ABE2C38195900B43352 /* TransformationsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31646ABC2C38195900B43352 /* TransformationsListTableViewController.swift */; };
+		31646ABF2C38195900B43352 /* TransformationsListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31646ABD2C38195900B43352 /* TransformationsListTableViewController.xib */; };
+		31646AC32C381E9800B43352 /* TransformationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31646AC12C381E9800B43352 /* TransformationDetailViewController.swift */; };
+		31646AC42C381E9800B43352 /* TransformationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31646AC22C381E9800B43352 /* TransformationDetailViewController.xib */; };
+		3166D46D2C3334FF00893F36 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166D46C2C3334FF00893F36 /* NetworkModel.swift */; };
+		31BA352C2C36EDD30007D51A /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA352A2C36EDD30007D51A /* HeroDetailViewController.swift */; };
+		31BA352D2C36EDD30007D51A /* HeroDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31BA352B2C36EDD30007D51A /* HeroDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		315964D92C53B3EC002A3EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3121CE1C2C33070B007D8874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3121CE232C33070B007D8874;
+			remoteInfo = DragonBallWiki;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3114DC212C357FB800F1F492 /* HeroesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListTableViewController.swift; sourceTree = "<group>"; };
+		3114DC222C357FB800F1F492 /* HeroesListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroesListTableViewController.xib; sourceTree = "<group>"; };
 		3121CE242C33070B007D8874 /* DragonBallWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBallWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3121CE272C33070B007D8874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3121CE292C33070B007D8874 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3121CE2B2C33070B007D8874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3121CE2E2C33070B007D8874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3121CE302C33070D007D8874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3121CE332C33070D007D8874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3121CE352C33070D007D8874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3121CE3B2C330E2D007D8874 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3121CE3C2C330E2D007D8874 /* LogInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		3121CE422C3310C8007D8874 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		3121CE432C3310C8007D8874 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		31588D7E2C33E793006EB68F /* LocalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModel.swift; sourceTree = "<group>"; };
+		31588D852C342A53006EB68F /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		31588D872C34390C006EB68F /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+		31588D882C34390C006EB68F /* HeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroTableViewCell.xib; sourceTree = "<group>"; };
+		315964D52C53B3EC002A3EF0 /* DragonBallWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBallWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315964D72C53B3EC002A3EF0 /* DragonBallWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallWikiTests.swift; sourceTree = "<group>"; };
+		315964DE2C53B4D3002A3EF0 /* NetworkModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModelTests.swift; sourceTree = "<group>"; };
+		31646AB92C380A6B00B43352 /* TransformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationModel.swift; sourceTree = "<group>"; };
+		31646ABC2C38195900B43352 /* TransformationsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationsListTableViewController.swift; sourceTree = "<group>"; };
+		31646ABD2C38195900B43352 /* TransformationsListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationsListTableViewController.xib; sourceTree = "<group>"; };
+		31646AC12C381E9800B43352 /* TransformationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationDetailViewController.swift; sourceTree = "<group>"; };
+		31646AC22C381E9800B43352 /* TransformationDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationDetailViewController.xib; sourceTree = "<group>"; };
+		3166D46C2C3334FF00893F36 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		31BA352A2C36EDD30007D51A /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
+		31BA352B2C36EDD30007D51A /* HeroDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3121CE212C33070B007D8874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3114DC272C35A58B00F1F492 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315964D22C53B3EC002A3EF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				3121CE262C33070B007D8874 /* DragonBallWiki */,
+				315964D62C53B3EC002A3EF0 /* DragonBallWikiTests */,
 				3121CE252C33070B007D8874 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				3121CE242C33070B007D8874 /* DragonBallWiki.app */,
+				315964D52C53B3EC002A3EF0 /* DragonBallWikiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +112,247 @@
 		3121CE262C33070B007D8874 /* DragonBallWiki */ = {
 			isa = PBXGroup;
 			children = (
-				3121CE272C33070B007D8874 /* AppDelegate.swift */,
-				3121CE292C33070B007D8874 /* SceneDelegate.swift */,
-				3121CE2B2C33070B007D8874 /* ViewController.swift */,
-				3121CE2D2C33070B007D8874 /* Main.storyboard */,
-				3121CE302C33070D007D8874 /* Assets.xcassets */,
-				3121CE322C33070D007D8874 /* LaunchScreen.storyboard */,
 				3121CE352C33070D007D8874 /* Info.plist */,
+				314ED2F92C52D80400E9D765 /* App */,
+				314ED2FA2C52D80B00E9D765 /* Resources */,
+				314ED2FB2C52D81B00E9D765 /* Domain */,
+				314ED2FC2C52D82200E9D765 /* UI */,
 			);
 			path = DragonBallWiki;
+			sourceTree = "<group>";
+		};
+		3121CE3F2C330E5A007D8874 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3166D46C2C3334FF00893F36 /* NetworkModel.swift */,
+				31588D7E2C33E793006EB68F /* LocalDataModel.swift */,
+				31588D852C342A53006EB68F /* HeroModel.swift */,
+				31646AB92C380A6B00B43352 /* TransformationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3121CE402C330E65007D8874 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				314ED30A2C52DA0800E9D765 /* ViewController */,
+				314ED3092C52DA0300E9D765 /* View */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3121CE462C332EB7007D8874 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				314ED3002C52D97E00E9D765 /* ViewController */,
+				314ED2FF2C52D97700E9D765 /* View */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		3121CE472C332EC4007D8874 /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				314ED2FE2C52D94B00E9D765 /* ViewController */,
+				314ED2FD2C52D94500E9D765 /* View */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		314ED2F92C52D80400E9D765 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3121CE272C33070B007D8874 /* AppDelegate.swift */,
+				3121CE292C33070B007D8874 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		314ED2FA2C52D80B00E9D765 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3121CE302C33070D007D8874 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		314ED2FB2C52D81B00E9D765 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3121CE3F2C330E5A007D8874 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		314ED2FC2C52D82200E9D765 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3121CE472C332EC4007D8874 /* Launch Screen */,
+				3121CE462C332EB7007D8874 /* Log In */,
+				31588D842C3408ED006EB68F /* Heroes List */,
+				31BA35292C36ED830007D51A /* Hero Detail */,
+				31646ABB2C3818E400B43352 /* Transformations List */,
+				31646AC02C381E6900B43352 /* Transformation Detail */,
+				3121CE402C330E65007D8874 /* Cell */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		314ED2FD2C52D94500E9D765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3121CE432C3310C8007D8874 /* LaunchScreen.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314ED2FE2C52D94B00E9D765 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3121CE422C3310C8007D8874 /* LaunchScreen.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		314ED2FF2C52D97700E9D765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3121CE3C2C330E2D007D8874 /* LogInViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314ED3002C52D97E00E9D765 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3121CE3B2C330E2D007D8874 /* LogInViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		314ED3012C52D9A100E9D765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3114DC222C357FB800F1F492 /* HeroesListTableViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314ED3022C52D9A600E9D765 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3114DC212C357FB800F1F492 /* HeroesListTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		314ED3032C52D9B500E9D765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31BA352B2C36EDD30007D51A /* HeroDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314ED3042C52D9BA00E9D765 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31BA352A2C36EDD30007D51A /* HeroDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		314ED3052C52D9C900E9D765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31646ABD2C38195900B43352 /* TransformationsListTableViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314ED3062C52D9CE00E9D765 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31646ABC2C38195900B43352 /* TransformationsListTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		314ED3072C52D9DE00E9D765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31646AC22C381E9800B43352 /* TransformationDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314ED3082C52D9E400E9D765 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31646AC12C381E9800B43352 /* TransformationDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		314ED3092C52DA0300E9D765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31588D882C34390C006EB68F /* HeroTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314ED30A2C52DA0800E9D765 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31588D872C34390C006EB68F /* HeroTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		31588D842C3408ED006EB68F /* Heroes List */ = {
+			isa = PBXGroup;
+			children = (
+				314ED3022C52D9A600E9D765 /* ViewController */,
+				314ED3012C52D9A100E9D765 /* View */,
+			);
+			path = "Heroes List";
+			sourceTree = "<group>";
+		};
+		315964D62C53B3EC002A3EF0 /* DragonBallWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				315964D72C53B3EC002A3EF0 /* DragonBallWikiTests.swift */,
+				315964DE2C53B4D3002A3EF0 /* NetworkModelTests.swift */,
+			);
+			path = DragonBallWikiTests;
+			sourceTree = "<group>";
+		};
+		31646ABB2C3818E400B43352 /* Transformations List */ = {
+			isa = PBXGroup;
+			children = (
+				314ED3062C52D9CE00E9D765 /* ViewController */,
+				314ED3052C52D9C900E9D765 /* View */,
+			);
+			path = "Transformations List";
+			sourceTree = "<group>";
+		};
+		31646AC02C381E6900B43352 /* Transformation Detail */ = {
+			isa = PBXGroup;
+			children = (
+				314ED3082C52D9E400E9D765 /* ViewController */,
+				314ED3072C52D9DE00E9D765 /* View */,
+			);
+			path = "Transformation Detail";
+			sourceTree = "<group>";
+		};
+		31BA35292C36ED830007D51A /* Hero Detail */ = {
+			isa = PBXGroup;
+			children = (
+				314ED3042C52D9BA00E9D765 /* ViewController */,
+				314ED3032C52D9B500E9D765 /* View */,
+			);
+			path = "Hero Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +371,30 @@
 			dependencies = (
 			);
 			name = DragonBallWiki;
+			packageProductDependencies = (
+				3114DC262C35A58B00F1F492 /* Kingfisher */,
+			);
 			productName = DragonBallWiki;
 			productReference = 3121CE242C33070B007D8874 /* DragonBallWiki.app */;
 			productType = "com.apple.product-type.application";
+		};
+		315964D42C53B3EC002A3EF0 /* DragonBallWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315964DD2C53B3EC002A3EF0 /* Build configuration list for PBXNativeTarget "DragonBallWikiTests" */;
+			buildPhases = (
+				315964D12C53B3EC002A3EF0 /* Sources */,
+				315964D22C53B3EC002A3EF0 /* Frameworks */,
+				315964D32C53B3EC002A3EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315964DA2C53B3EC002A3EF0 /* PBXTargetDependency */,
+			);
+			name = DragonBallWikiTests;
+			productName = DragonBallWikiTests;
+			productReference = 315964D52C53B3EC002A3EF0 /* DragonBallWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +409,10 @@
 					3121CE232C33070B007D8874 = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					315964D42C53B3EC002A3EF0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3121CE232C33070B007D8874;
+					};
 				};
 			};
 			buildConfigurationList = 3121CE1F2C33070B007D8874 /* Build configuration list for PBXProject "DragonBallWiki" */;
@@ -111,11 +424,15 @@
 				Base,
 			);
 			mainGroup = 3121CE1B2C33070B007D8874;
+			packageReferences = (
+				3114DC252C35A58B00F1F492 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 3121CE252C33070B007D8874 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3121CE232C33070B007D8874 /* DragonBallWiki */,
+				315964D42C53B3EC002A3EF0 /* DragonBallWikiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +442,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31646AC42C381E9800B43352 /* TransformationDetailViewController.xib in Resources */,
 				3121CE312C33070D007D8874 /* Assets.xcassets in Resources */,
-				3121CE342C33070D007D8874 /* Base in Resources */,
-				3121CE2F2C33070B007D8874 /* Base in Resources */,
+				31646ABF2C38195900B43352 /* TransformationsListTableViewController.xib in Resources */,
+				3121CE452C3310C8007D8874 /* LaunchScreen.xib in Resources */,
+				3114DC232C357FB800F1F492 /* HeroesListTableViewController.xib in Resources */,
+				31BA352D2C36EDD30007D51A /* HeroDetailViewController.xib in Resources */,
+				31588D8A2C34390C006EB68F /* HeroTableViewCell.xib in Resources */,
+				3121CE3E2C330E2D007D8874 /* LogInViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315964D32C53B3EC002A3EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +467,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3121CE2C2C33070B007D8874 /* ViewController.swift in Sources */,
+				31588D862C342A53006EB68F /* HeroModel.swift in Sources */,
+				31BA352C2C36EDD30007D51A /* HeroDetailViewController.swift in Sources */,
+				3121CE442C3310C8007D8874 /* LaunchScreen.swift in Sources */,
+				31646ABA2C380A6B00B43352 /* TransformationModel.swift in Sources */,
+				3114DC242C357FB800F1F492 /* HeroesListTableViewController.swift in Sources */,
+				3121CE3D2C330E2D007D8874 /* LogInViewController.swift in Sources */,
+				31588D892C34390C006EB68F /* HeroTableViewCell.swift in Sources */,
 				3121CE282C33070B007D8874 /* AppDelegate.swift in Sources */,
+				31646ABE2C38195900B43352 /* TransformationsListTableViewController.swift in Sources */,
+				3166D46D2C3334FF00893F36 /* NetworkModel.swift in Sources */,
 				3121CE2A2C33070B007D8874 /* SceneDelegate.swift in Sources */,
+				31588D7F2C33E793006EB68F /* LocalDataModel.swift in Sources */,
+				31646AC32C381E9800B43352 /* TransformationDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315964D12C53B3EC002A3EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315964DF2C53B4D3002A3EF0 /* NetworkModelTests.swift in Sources */,
+				315964D82C53B3EC002A3EF0 /* DragonBallWikiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		3121CE2D2C33070B007D8874 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3121CE2E2C33070B007D8874 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		315964DA2C53B3EC002A3EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3121CE232C33070B007D8874 /* DragonBallWiki */;
+			targetProxy = 315964D92C53B3EC002A3EF0 /* PBXContainerItemProxy */;
 		};
-		3121CE322C33070D007D8874 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3121CE332C33070D007D8874 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3121CE362C33070D007D8874 /* Debug */ = {
@@ -288,16 +625,16 @@
 		3121CE392C33070D007D8874 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L99K575NPM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DragonBallWiki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.xib;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,16 +653,16 @@
 		3121CE3A2C33070D007D8874 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L99K575NPM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DragonBallWiki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.xib;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,6 +675,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		315964DB2C53B3EC002A3EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L99K575NPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manavarro.DragonBallWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonBallWiki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragonBallWiki";
+			};
+			name = Debug;
+		};
+		315964DC2C53B3EC002A3EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L99K575NPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manavarro.DragonBallWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragonBallWiki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragonBallWiki";
 			};
 			name = Release;
 		};
@@ -362,7 +735,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		315964DD2C53B3EC002A3EF0 /* Build configuration list for PBXNativeTarget "DragonBallWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315964DB2C53B3EC002A3EF0 /* Debug */,
+				315964DC2C53B3EC002A3EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3114DC252C35A58B00F1F492 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3114DC262C35A58B00F1F492 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3114DC252C35A58B00F1F492 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3121CE1C2C33070B007D8874 /* Project object */;
 }

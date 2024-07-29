@@ -8,14 +8,17 @@
 import UIKit
 
 class HeroDetailViewController: UIViewController {
+    
+    // MARK: - Outlets
     @IBOutlet weak var heroNameDetail: UILabel!
     @IBOutlet weak var heroDescriptionDetail: UILabel!
     @IBOutlet weak var imageHeroDetail: UIImageView!
     @IBOutlet weak var transformationButton: UIButton!
     
-    let hero: Hero
-    let model = NetworkModel()
-    var transformations: [Transformation] = []
+    // MARK: - Properties
+    private let hero: Hero
+    private let model = NetworkModel()
+    private var transformations: [Transformation] = []
     
     init(hero: Hero) {
         self.hero = hero
@@ -26,9 +29,11 @@ class HeroDetailViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
+    // MARK: - Lifecicle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // UI config
         transformationButton.isHidden = true
         title = hero.name
         heroNameDetail.text = hero.name
@@ -41,6 +46,7 @@ class HeroDetailViewController: UIViewController {
         model.getTransformations(for: hero) { [weak self] result in
             switch result {
             case let .success(transformations):
+                // Cleaning and sorting API results
                 var transformationsSet = Set<String>()
                 var uniqueTransformations: [Transformation] = []
                 
@@ -57,6 +63,7 @@ class HeroDetailViewController: UIViewController {
                     let transformation2 = Int($1.name.split(separator: ".").first ?? "") ?? 0
                     return transformation1 < transformation2
                 }
+                // Show transformations button if there are transformations
                 DispatchQueue.main.async {
                     if transformations != [] {
                         self?.transformationButton.layer.borderWidth = 1.0
@@ -72,6 +79,7 @@ class HeroDetailViewController: UIViewController {
         }
     }
     
+    // MARK: - Actions
     @IBAction func transformationButtonTapped(_ sender: Any) {
         let transformationsListTableViewController = TransformationsListTableViewController()
         transformationsListTableViewController.transformations = self.transformations

@@ -8,6 +8,8 @@
 import Foundation
 
 class NetworkModel {
+    
+    // MARK: - Error Control
     enum NetworkError: Error {
         case unknown
         case malformedUrl
@@ -18,6 +20,7 @@ class NetworkModel {
         case noToken
     }
     
+    // MARK: - API Components
     private var baseComponents: URLComponents {
         var components = URLComponents()
         components.scheme = "https"
@@ -45,6 +48,7 @@ class NetworkModel {
         self.session = session
     }
     
+    // MARK: - Log In
     func login(
         user: String,
         password: String,
@@ -99,6 +103,7 @@ class NetworkModel {
         task.resume()
     }
     
+    // MARK: Get Heroes
     func getHeroes(
         completion: @escaping (Result<[Hero],NetworkError>) -> Void
     ) {
@@ -129,6 +134,7 @@ class NetworkModel {
         )
     }
     
+    // MARK: - Get Transformations
     func getTransformations(
         for hero: Hero,
         completion: @escaping (Result<[Transformation],NetworkError>) -> Void
@@ -160,6 +166,7 @@ class NetworkModel {
         )
     }
     
+    // MARK: - Generic Task
     func createTask<T: Decodable>(
         for request: URLRequest,
         using type: T.Type, completion: @escaping (Result<T, NetworkError>) -> Void
@@ -191,4 +198,11 @@ class NetworkModel {
         
         task.resume()
     }
+    
+    // MARK: - Test Function
+    #if DEBUG
+    func setToken(value: String) {
+        token = value
+    }
+    #endif
 }

@@ -8,10 +8,13 @@
 import UIKit
 
 class TransformationDetailViewController: UIViewController {
+    
+    // MARK: - Outlets
     @IBOutlet weak var transformationImage: UIImageView!
     @IBOutlet weak var transformationNameLabel: UILabel!
     @IBOutlet weak var transformationDescriptionLabel: UILabel!
     
+    //: MARK: - Properties
     let transformation: Transformation
     
     init(transformation: Transformation) {
@@ -23,6 +26,7 @@ class TransformationDetailViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - Lifecicle
     override func viewDidLoad() {
         super.viewDidLoad()
         title = transformation.name

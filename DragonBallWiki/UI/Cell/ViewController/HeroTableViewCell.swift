@@ -9,12 +9,16 @@ import UIKit
 import Kingfisher
 
 class HeroTableViewCell: UITableViewCell {
+    
+    // MARK: - Identifier
     static let identifier = "HeroTableViewCell"
     
+    // MARK: - Outlets
     @IBOutlet weak var heroImage: UIImageView!
     @IBOutlet weak var heroNameLabel: UILabel!
     @IBOutlet weak var heroDescriptionLabel: UILabel!
     
+    // MARK: - Cell Config
     func configure(with hero: any HeroTableViewRepresentable) {
         heroNameLabel.text = hero.name
         heroNameLabel.textColor = UIColor(.white)
@@ -23,9 +27,9 @@ class HeroTableViewCell: UITableViewCell {
         heroDescriptionLabel.numberOfLines = 0
         heroImage.kf.setImage(with: hero.photo)
     }
-    
 }
 
+// MARK: - Protocol
 protocol HeroTableViewRepresentable {
     var photo: URL { get }
     var name: String { get }

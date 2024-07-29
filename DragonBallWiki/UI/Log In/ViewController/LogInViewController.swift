@@ -8,17 +8,20 @@
 import UIKit
 
 class LogInViewController: UIViewController {
+    
+    // MARK: - Outlets
     @IBOutlet weak var mailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
     private let model = NetworkModel()
     
+    // MARK: - Lifecicle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
+    // MARK: - Actions
     @IBAction func loginButtonTapped(_ sender: Any) {
         model.login(
             user: mailTextField.text ?? "",
